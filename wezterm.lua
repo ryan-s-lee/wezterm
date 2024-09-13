@@ -35,7 +35,7 @@ config.keys = {
     { key = 'h', mods = 'LEADER', action = wezterm.action.AdjustPaneSize {'Left', 10} },
 }
 
-config.font_size = 13.0
+config.font_size = 12.0
 
 config.term = 'wezterm'
 -- and finally, return the configuration to wezterm
