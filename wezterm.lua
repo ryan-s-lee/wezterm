@@ -15,6 +15,11 @@ end
 -- For example, changing the color scheme:
 config.color_scheme = 'AdventureTime'
 
+-- default program
+if os.execute("which fish") then
+  config.default_prog = { 'fish' }
+end
+
 config.leader = {key = 'q', mods = 'CTRL' }
 config.disable_default_key_bindings = true
 config.keys = {
